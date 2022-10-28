@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import BrowserOnly from '@docusaurus/BrowserOnly';
-import config from '../../../cms/config';
 
 const AdminPage: React.FC = () => {
   return (
@@ -14,7 +13,7 @@ const AdminPage: React.FC = () => {
           CMS.registerMediaLibrary(uploadcare)
           // CMS.registerMediaLibrary(cloudinary)
         
-          CMS.init( { config } );
+          CMS.init();
         }, [])
 
         return <></>;
