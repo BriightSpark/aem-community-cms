@@ -4,48 +4,89 @@ import styles from './styles.module.css';
 
 type FeatureItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
+  imgSrc: string;
   description: JSX.Element;
 };
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Content Management System',
+    imgSrc: '/img/home-page/cms.png',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Make sure your content is consistent and personalized for each
+        customer with Adobe Experience Manager Sites.
+        Create and manage your digital experience across all channels
+        with automated toolsthat make scaling effortless.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Digital Asset Management',
+    imgSrc: '/img/home-page/dam.png',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Spend more time on experiences and less time searching for and adapting content.
+        Adobe Experience Manager Assets gives you automation and smart tools to rapidly source,
+        adapt,and deliver your assets across audiences and channels.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Digital Enrollment and Forms',
+    imgSrc: '/img/home-page/dig-enrollment.png',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Stop integrating point solutions.
+        Adobe Experience Manager Forms is an end-to-end digital document solution
+        that makes it easy to create responsive forms that customers can easily
+        complete and securely e-sign, making a seamless customer journey
+        from acquisition through retention.
+      </>
+    ),
+  },
+  {
+    title: 'Cloud Service',
+    imgSrc: '/img/home-page/cloud-service.png',
+    description: (
+      <>
+        Stop paying for pricey upgrades with the first cloud-native
+        enterprise-grade content management system.
+        Get Experience Manager in the cloud with optimal performance,
+        great service level agreements, and enterprise-grade security.
+      </>
+    ),
+  },
+  {
+    title: 'Learning Manager',
+    imgSrc: '/img/home-page/learning-manager.png',
+    description: (
+      <>
+        Engage customers, increase sales, train partners,
+        and develop employee skills with Adobe Learning Manager,
+        the award-winning learning management system (LMS)
+        that integrates learning experiences into your brand’s website and apps.
+      </>
+    ),
+  },
+  {
+    title: 'Digital Guides',
+    imgSrc: '/img/home-page/digital-guide.png',
+    description: (
+      <>
+        Scale content creation, manage it efficiently,
+        and publish faster with a cloud-native component content management system (CCMS),
+        that empowers you to deliver consistent, engaging experiences across touchpoints.
       </>
     ),
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({title, imgSrc, description}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <img src={imgSrc} className={styles.featureSvg} alt={title} />
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
