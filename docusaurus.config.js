@@ -7,8 +7,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'AEM Community Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Learn Adobe Experience Manager',
+  tagline: 'Powered by the AEM community',
   url: 'https://aem.community',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -52,9 +52,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: '',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Home',
           src: 'img/logo.svg',
         },
         items: [
@@ -67,11 +67,6 @@ const config = {
           {
             type: "localeDropdown",
             position: "right",
-          },
-          {
-            href: 'https://github.com/BriightSpark/aem-community-cms',
-            label: 'GitHub',
-            position: 'right',
           },
         ],
       },
@@ -104,10 +99,10 @@ const config = {
             items: [
               {
                 html: `
-            <a href="https://www.aether.llc" target="_blank" rel="noreferrer noopener" aria-label="Powered by Aether">
-              <img src="/img/aether-logo.png" alt="Aether logo" style="height: auto; width: 150px;"  />
-            </a>
-          `,
+                  <a href="https://www.aether.llc" target="_blank" rel="noreferrer noopener" aria-label="Powered by Aether">
+                    <img src="/img/aether-logo.png" alt="Aether logo" style="height: auto; width: 150px;"  />
+                  </a>
+                `,
               }
             ],
           },
