@@ -8,15 +8,19 @@ const AdminPage: React.FC = () => {
         useEffect( () => {
           const CMS = require('netlify-cms-app');
           const uploadcare = require('netlify-cms-media-library-uploadcare');
-          // const cloudinary = require('netlify-cms-media-library-cloudinary');
 
           CMS.registerMediaLibrary(uploadcare)
-          // CMS.registerMediaLibrary(cloudinary)
-        
           CMS.init();
+
+          const netlifyIdentity = require('netlify-identity-widget');
+          netlifyIdentity.init({
+            container: '#netlify-modal', // defaults to document.body
+            locale: 'en' // defaults to 'en'
+          });
+          netlifyIdentity.open()
         }, [])
 
-        return <></>;
+        return <div id='netlify-modal' />;
       }}
     </BrowserOnly>
   );

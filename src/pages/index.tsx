@@ -23,8 +23,8 @@ export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={siteConfig.title}
+      description='A place to document and share learning materials to all developers whom might be working for Adobe Experience Manager'>
       <HomepageHeader />
       <main>
         <HomepageFeatures />
