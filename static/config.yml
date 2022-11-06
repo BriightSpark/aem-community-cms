@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: BriightSpark/aem-community-cms
+  name: git-gateway
   branch: main
   commit_messages:
     create: "Create {{collection}} “{{slug}}”"
