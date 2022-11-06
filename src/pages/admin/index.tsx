@@ -11,13 +11,6 @@ const AdminPage: React.FC = () => {
 
           CMS.registerMediaLibrary(uploadcare)
           CMS.init();
-
-          const netlifyIdentity = require('netlify-identity-widget');
-          netlifyIdentity.init({
-            container: '#netlify-modal', // defaults to document.body
-            locale: 'en' // defaults to 'en'
-          });
-          netlifyIdentity.open()
         }, [])
 
         return <div id='netlify-modal' />;
