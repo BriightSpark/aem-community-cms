@@ -33,6 +33,7 @@ function useDocTOC() {
   };
 }
 export default function DocItemLayout({children}) {
+  require('dotenv').config()
   const docTOC = useDocTOC();
   const { colorMode } = useColorMode();
   return (
@@ -51,9 +52,9 @@ export default function DocItemLayout({children}) {
           <Giscus
             id="giscus"
             repo="BriightSpark/aem-community-cms"
-            repoId={ process.env.GITCUS_REPO_ID }
+            repoId="R_kgDOIU0w0A"
             category="Comments"
-            categoryId={ process.env.GITCUS_CATEGORY_ID }
+            categoryId="DIC_kwDOIU0w0M4CSayw"
             mapping="pathname"
             reactionsEnabled="1"
             emitMetadata="0"
