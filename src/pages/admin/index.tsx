@@ -17,6 +17,7 @@ const AdminPage: React.FC = () => {
             container: '#netlify-modal', // defaults to document.body
             locale: 'en' // defaults to 'en'
           });
+          netlifyIdentity.open()
         }, [])
 
         return <div id='netlify-modal' />;
