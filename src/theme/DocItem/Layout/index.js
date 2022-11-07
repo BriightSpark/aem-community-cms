@@ -33,7 +33,6 @@ function useDocTOC() {
   };
 }
 export default function DocItemLayout({children}) {
-  require('dotenv').config()
   const docTOC = useDocTOC();
   const { colorMode } = useColorMode();
   return (
