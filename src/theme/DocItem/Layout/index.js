@@ -46,22 +46,22 @@ export default function DocItemLayout({children}) {
             {docTOC.mobile}
             <DocItemContent>{children}</DocItemContent>
             <DocItemFooter />
+            <Giscus
+              id="giscus"
+              repo="BriightSpark/aem-community-cms"
+              repoId="R_kgDOIU0w0A"
+              category="Comments"
+              categoryId="DIC_kwDOIU0w0M4CSayw"
+              mapping="pathname"
+              reactionsEnabled="1"
+              emitMetadata="0"
+              inputPosition="top"
+              theme={ colorMode }
+              lang="en"
+              loading="lazy"
+              />
           </article>
           <DocItemPaginator />
-          <Giscus
-            id="giscus"
-            repo="BriightSpark/aem-community-cms"
-            repoId="R_kgDOIU0w0A"
-            category="Comments"
-            categoryId="DIC_kwDOIU0w0M4CSayw"
-            mapping="pathname"
-            reactionsEnabled="1"
-            emitMetadata="0"
-            inputPosition="top"
-            theme={ colorMode }
-            lang="en"
-            loading="lazy"
-            />
         </div>
       </div>
       {docTOC.desktop && <div className="col col--3">{docTOC.desktop}</div>}
