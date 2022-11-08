@@ -51,7 +51,7 @@ export default function DocItemLayout({children}) {
               repo="BriightSpark/aem-community-cms"
               repoId="R_kgDOIU0w0A"
               category="General"
-              category-id="DIC_kwDOIU0w0M4CSayw"
+              categoryId="DIC_kwDOIU0w0M4CSayw"
               mapping="pathname"
               reactionsEnabled="1"
               emitMetadata="0"
