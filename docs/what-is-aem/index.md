@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-title: Adobe Experience Manager – What is it?
+title: Adobe Experience Manager
 ---
 ![](/img/content/what-is-aem.webp)
 
