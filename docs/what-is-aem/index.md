@@ -8,6 +8,16 @@ Adobe Experience Manager functions as a Content Management System (CMS), a Digit
 
 In an ever-changing world, companies in both B2B and B2C commerce need to keep their marketing materials relevant to produce an omnichannel and personalised experience. For example, a Harvard study found that 73% of shoppers engage with brands across multiple channels, and omnichannel shoppers spend 4% more than shoppers completing their purchasing journey through a single channel. AEM will help you overcome the challenges of creating an omnichannel experience.
 
+
+
+## KEY TAKEAWAYS
+
+* Adobe Experience Manager (AEM) is a content management system that optimises the authoring, management, and delivery of content and digital media.
+* AEM has consistently outperformed its competitors and bridges the gap between creating content and offering an omnichannel experience personalised to your customers’ needs.
+* The current trends of being digital-first and available across channels make AEM a critical addition to your tech stack.
+* The adoption of suites over point solutions indicates the market’s choice to take flexible and easy-to-use suites, such as Adobe Experience Cloud, over best-of-breed solutions.
+* The Adobe Experience Cloud increases the benefits of Adobe Experience Manager, offering more opportunities to sync data and resources across systems.
+
 # WHAT IS ADOBE EXPERIENCE MANAGER (AEM)?
 
 Adobe Experience Manager (AEM) is an enterprise content management system that optimises the authoring, management, and delivery of content and digital media. AEM allows you to create unique digital experiences and manage fully context-specific messages that scale across products, services, organisations, and countries. According to [Adobe](https://business.adobe.com/blog/the-latest/customers-report-3x-return-investment-adobe-experience-manager#gs.uy35pu), teams deliver new brand and country sites 66% faster and is 23% more productive after shifting to AEM. In short, it helps you give the right person a personalised message at the perfect moment.
@@ -62,14 +72,6 @@ AEM integrates with other core Adobe Cloud tools used by both mid-level and en
 * Adobe Creative Cloud is a collection of tools for graphic design, video editing, web development, photography, along with a set of mobile applications.
 * Adobe Cloud Analytics helps you measure the experience your visitors have with your brand and optimise experiences based on what you see.
 * Adobe Target allows you to segment users for personalised website experiences.
-
-## KEY TAKEAWAYS
-
-* Adobe Experience Manager (AEM) is a content management system that optimises the authoring, management, and delivery of content and digital media.
-* AEM has consistently outperformed its competitors and bridges the gap between creating content and offering an omnichannel experience personalised to your customers’ needs.
-* The current trends of being digital-first and available across channels make AEM a critical addition to your tech stack.
-* The adoption of suites over point solutions indicates the market’s choice to take flexible and easy-to-use suites, such as Adobe Experience Cloud, over best-of-breed solutions.
-* The Adobe Experience Cloud increases the benefits of Adobe Experience Manager, offering more opportunities to sync data and resources across systems.
 
 ## ABOUT AETHER
 
