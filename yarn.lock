@@ -1793,7 +1793,7 @@
 
 "@giscus/react@2.0.0":
   version "2.0.0"
-  resolved "https://breville-202406191183.d.codeartifact.us-west-2.amazonaws.com:443/npm/BrevilleDDS/@giscus/react/-/react-2.0.0.tgz#b38df5ee564d51c05430919542be12eb4f8cc24c"
+  resolved "https://registry.yarnpkg.com/@giscus/react/-/react-2.0.0.tgz#b38df5ee564d51c05430919542be12eb4f8cc24c"
   integrity sha512-ypg8TL3ZuHmojzkH0vY/3swZAeU8vkLGb0Oexg+ygoD3CWhqe5qIXjvTomwc35SgmGerSMqC72bSCXaFuZ26OQ==
   dependencies:
     giscus "^1.0.0"
@@ -4730,7 +4730,7 @@ get-window@^1.1.1:
 
 giscus@^1.0.0:
   version "1.2.3"
-  resolved "https://breville-202406191183.d.codeartifact.us-west-2.amazonaws.com:443/npm/BrevilleDDS/giscus/-/giscus-1.2.3.tgz#33e5015b1ea5a9c7647ebddc3722ce033f1f781e"
+  resolved "https://registry.yarnpkg.com/giscus/-/giscus-1.2.3.tgz#33e5015b1ea5a9c7647ebddc3722ce033f1f781e"
   integrity sha512-1sYu6B3cUzPVZHH93f1DX5PJHf5ak2bPp8N1xZrAPxqccN7C/R6r93usllmCVESJ8cvnyYUaNVyXzOYz9B6OxQ==
   dependencies:
     lit "^2.4.1"
