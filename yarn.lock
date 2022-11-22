@@ -1791,12 +1791,12 @@
   resolved "https://registry.yarnpkg.com/@emotion/weak-memoize/-/weak-memoize-0.3.0.tgz#ea89004119dc42db2e1dba0f97d553f7372f6fcb"
   integrity sha512-AHPmaAx+RYfZz0eYu6Gviiagpmiyw98ySSlQvCUhVGDRtDFe4DBS0x1bSjdF3gqUDYOczB+yYvBTtEylYSdRhg==
 
-"@giscus/react@^2.2.2":
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/@giscus/react/-/react-2.2.2.tgz#3b06c03bea6965ccbc6d26bd3abe038d91fb4cfc"
-  integrity sha512-UXU2pzJEnsjEh36//UlqmWd7j3FJTGL7ijZIaijwbrsERtzkPkRhOkJ7eqRytCOdpcJSji3XX07/5rPGknmm3w==
+"@giscus/react@2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@giscus/react/-/react-2.0.0.tgz#b38df5ee564d51c05430919542be12eb4f8cc24c"
+  integrity sha512-ypg8TL3ZuHmojzkH0vY/3swZAeU8vkLGb0Oexg+ygoD3CWhqe5qIXjvTomwc35SgmGerSMqC72bSCXaFuZ26OQ==
   dependencies:
-    giscus "^1.2.2"
+    giscus "^1.0.0"
 
 "@hapi/hoek@^9.0.0":
   version "9.3.0"
@@ -4728,10 +4728,10 @@ get-window@^1.1.1:
   dependencies:
     get-document "1"
 
-giscus@^1.2.2:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/giscus/-/giscus-1.2.2.tgz#b186ede8bba56869f2a1b902031c54d528662677"
-  integrity sha512-H71M3V5K/mmWr5/OwCMCH+s7Z2wVT6uQ1AXe5B0f0jjAGvJ9unAklfp4cNJU5zamjDdMZFVFi/9xhhbHIG3ZTQ==
+giscus@^1.0.0:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/giscus/-/giscus-1.2.3.tgz#33e5015b1ea5a9c7647ebddc3722ce033f1f781e"
+  integrity sha512-1sYu6B3cUzPVZHH93f1DX5PJHf5ak2bPp8N1xZrAPxqccN7C/R6r93usllmCVESJ8cvnyYUaNVyXzOYz9B6OxQ==
   dependencies:
     lit "^2.4.1"
 
